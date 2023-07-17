@@ -1,0 +1,97 @@
+.product-search_container {
+    padding-top: 100px;
+    padding-bottom: 89px;
+    display: flex;
+    justify-content: space-between;
+}
+.product-name_input {
+    width: 457px;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+    background: #FFF;
+    color: #121212;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 22px 14px;
+    opacity: 0.3;
+    margin-bottom: 20px;
+}
+.product-search_inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product-search-card {
+    position: relative;
+    max-width: 608px;
+    padding: 71px 89px 117px 65px;
+    background: #F3F6F8;
+    border-radius: 6px;
+}
+.product-search_button {
+    display: block;
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 6px;
+    background: #1876F2;
+    padding: 20px 30px;
+    margin-bottom: 45px;
+}
+.product-search_title {
+    max-width: 410px;
+    color: #000;
+    font-family: var(--font-family);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px;
+    
+}
+.search_box-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.add-company_title {
+    max-width: 372px;
+    color: #000;
+    font-family: var(--font-family);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px;
+    margin-bottom: 11px;
+}
+.add-company_text {
+    color: #000;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+    margin-bottom: 29px;
+}
+.add-company_item1 {
+    color: #1876F2;
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.add-company_item2 {
+    color: #1876F2;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

@@ -1,0 +1,20 @@
+.why-container {
+    padding-top: 100px;
+}
+.why-title {
+    color: #000;
+    font-family: var(--font-family);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 65px;
+}
+.why-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 63px;
+}
+.why-card {
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+    
+}
+.about-content {
+    padding-top: 70px;
+}
+.about-title {
+    color: #000;
+    font-family: var(--font-family);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.about-text {
+    width: 625px;
+    color: #000;
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    opacity: 0.8;
+}

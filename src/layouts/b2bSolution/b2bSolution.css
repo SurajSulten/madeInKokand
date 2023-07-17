@@ -1,0 +1,49 @@
+.layout-bg {
+    background-color: #F6F6FA;
+}
+.b2b-solution_box {
+    padding-top: 60px;
+    padding-bottom: 93px;
+}
+.b2b-solution_title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 93px;
+}
+.b2b-solution_titleH2 {
+    margin: auto;
+    color: #000;
+    font-family: var(--font-family);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.btb-solution_content {
+    display: flex;
+    justify-content: space-between;
+}
+.b2b-solution_card {
+    width: 227px;
+}
+.solution-card_icon {
+    margin-bottom: 13px;
+}
+.solution-card_title {
+    margin-bottom: 8px;
+    color: #121212;
+    font-family: var(--font-family);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.solution-card_text {
+    color: #121212;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+}

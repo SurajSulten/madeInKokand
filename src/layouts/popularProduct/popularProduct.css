@@ -1,0 +1,105 @@
+.new-product-container {
+    padding-top: 102px;
+    padding-bottom: 122px;
+
+}
+.new-product_title {
+    color: #000;
+    font-family: var(--font-family);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+.new-product_box {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.new-product_card {
+    max-width: 292px;
+    text-align: center;
+}
+.new-product_image {
+    padding: 51px 46px;
+    background-color: #fff;
+    margin-bottom: 17px;
+}
+.product-card_name {
+    color: #000;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+.product-card_category {
+    color: #1876F2;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 14px;
+}
+.product-card_star {
+    margin-top: 14px;
+    background: none;
+    transition: 1s;
+}
+.product-card_star:hover {
+    width: 20px;
+    height: 20px;
+    cursor: pointer; 
+}
+.arrow-icon_left {
+    position: absolute;
+    top: 155px;
+    margin-left: -33px;
+    width: 66px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%;
+    fill: #FFF;
+    filter: drop-shadow(-2px 4px 24px rgba(0, 0, 0, 0.10));
+}
+.arrow-icon_left:hover {
+    cursor: pointer;
+}
+.arrow-icon_right {
+    position: absolute;
+    top: 155px;
+    right: 0;
+    margin-right: -33px;
+    width: 66px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%;
+    fill: #FFF;
+    filter: drop-shadow(-2px 4px 24px rgba(0, 0, 0, 0.10));
+}
+.arrow-icon_right:hover {
+    cursor: pointer;
+}
+.new-product_button {
+    width: 328px;
+    border-radius: 6px;
+    background: #FFF;
+    padding: 20px 30px;
+    margin-top: 82px;
+    color: #121212;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    flex-shrink: 0;
+}

@@ -1,0 +1,17 @@
+.trust-container {
+    padding-top: 150px;
+    padding-bottom: 112px;
+}
+.trust-title {
+    color: #000;
+    font-family: var(--font-family);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 58px;
+}
+.about-images {
+    display: flex;
+    justify-content: space-between;
+}
