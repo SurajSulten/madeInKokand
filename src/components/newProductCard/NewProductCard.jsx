@@ -33,15 +33,15 @@ const NewProductCard = () => {
                     <div className='new-product_image'>
                         <img src={productDetails.image} alt="product-img" />
                     </div>
-                        <p className='product-card_name'>Футболки – для мужчин и женщин</p>
-                        <a href='#product' className='product-card_category'>Футболки</a> 
-                        <div> 
-                            <button  className='product-card_star'><img src={StarSVG} alt="star" /></button>
-                            <button  className='product-card_star'><img src={StarSVG} alt="star" /></button>
-                            <button className='product-card_star'><img src={StarSVG} alt="star" /></button>
-                            <button className='product-card_star'><img src={StarSVG} alt="star" /></button>
-                            <button className='product-card_star'><img src={StarSVG} alt="star" /></button>
-                        </div>
+                    <p className='product-card_name'>Футболки – для мужчин и женщин</p>
+                    <a href='#product' className='product-card_category'>Футболки</a> 
+                    <div> 
+                        <button className='product-card_star'><img src={StarSVG} alt="star" /></button>
+                        <button className='product-card_star'><img src={StarSVG} alt="star" /></button>
+                        <button className='product-card_star'><img src={StarSVG} alt="star" /></button>
+                        <button className='product-card_star'><img src={StarSVG} alt="star" /></button>
+                        <button className='product-card_star'><img src={StarSVG} alt="star" /></button>
+                    </div>
                 </div>
             )
         })}  

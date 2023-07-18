@@ -5,9 +5,9 @@
     justify-content: space-between;
 }
 .product-name_input {
-    width: 457px;
+    width: 420px;
     border-radius: 6px;
-    border: 1px solid #DDD;
+    border: 1px solid #121212;
     background: #FFF;
     color: #121212;
     font-family: var(--font-family);
@@ -31,6 +31,12 @@
     background: #F3F6F8;
     border-radius: 6px;
 }
+@media screen and (max-width: 1536px) {
+    .product-search-card {
+        max-width: 486px;
+        padding: 57px 71px 94px 52px;
+    }
+}
 .product-search_button {
     display: block;
     color: #FFF;
@@ -43,6 +49,11 @@
     background: #1876F2;
     padding: 20px 30px;
     margin-bottom: 45px;
+}
+@media screen and (max-width: 1536px) {
+    .product-search_button {
+        margin-bottom: 65px;
+    }
 }
 .product-search_title {
     max-width: 410px;

@@ -20,10 +20,16 @@
 .new-product_card {
     max-width: 292px;
     text-align: center;
+    
 }
-@media (max-width: 1600) {
+@media screen and (max-width: 1536px) {
+    .new-product_card {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1536px) {
     .new-product_image {
-        padding: 41px 37px;
+        padding: 31px 27px;
     }
 }
 .new-product_image {
@@ -40,6 +46,14 @@
     font-weight: 500;
     line-height: normal;
     margin-bottom: 5px;
+    text-align: center;
+}
+@media screen and (max-width: 1536px) {
+        .product-card_name {
+            text-align: center;
+            max-width: 200px;
+            margin-left: 25px;
+        }
 }
 .product-card_category {
     color: #1876F2;

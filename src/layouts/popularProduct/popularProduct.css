@@ -26,6 +26,11 @@
     background-color: #fff;
     margin-bottom: 17px;
 }
+@media screen and (max-width: 1536px) {
+    .new-product_image {
+        padding: 31px 26px;
+    }
+}
 .product-card_name {
     color: #000;
     font-family: var(--font-family);
@@ -34,6 +39,7 @@
     font-weight: 500;
     line-height: normal;
     margin-bottom: 5px;
+    text-align: center;
 }
 .product-card_category {
     color: #1876F2;
