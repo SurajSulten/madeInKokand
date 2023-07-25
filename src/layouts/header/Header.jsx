@@ -22,9 +22,9 @@ const Header = () => {
                     <option value="Ru">Uz</option>
                 </select>
             </div>
-            <button className='header-fisrtButton' >
+            {/* <button className='header-fisrtButton' >
                 Войти
-            </button>
+            </button> */}
             <button className='header-secondButton'>
                 + Добавить компанию
             </button>

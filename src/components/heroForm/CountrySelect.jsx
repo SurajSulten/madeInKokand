@@ -7,7 +7,7 @@ const CountrySelect = () => {
   return (
     <Autocomplete
       id="country-select-demo"
-      sx={{ width: 400, backgroundColor: '#fff', borderRadius: '5px', marginBottom: '12px' }}
+      sx={{ width: 400, backgroundColor: '#fff', borderRadius: '5px', marginBottom: '24px' }}
       options={countries}
       autoHighlight
       getOptionLabel={(option) => option.label}

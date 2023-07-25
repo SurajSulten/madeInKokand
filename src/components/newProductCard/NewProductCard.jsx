@@ -21,6 +21,12 @@ const productData = [
     {
        image: Product4Img 
     },
+    {
+        image: Product3Img 
+    },
+    {
+        image: Product2Img 
+    }
 ] 
 
 const NewProductCard = () => {

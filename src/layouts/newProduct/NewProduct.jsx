@@ -7,7 +7,7 @@ const NewProduct = () => {
     <div className='layout-bg'>
         <div className='container new-product-container'>
             <h3 className='new-product_title'>Новейшие товары</h3>
-            <NewProductCard />
+              <NewProductCard />
             <button className='new-product_button'>Посмотреть больше продуктов</button>
         </div>
     </div>

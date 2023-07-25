@@ -19,7 +19,7 @@ const ProductCategory = () => {
                     <p className='product-category_text'>Хлопковая пряжа</p>
                     <p className='product-category_text'>Ткани</p>
                     <p className='product-category_text'>Аксессуары</p>
-                    <p className='product-category_text'>Другие продукты</p>
+                    {/* <p className='product-category_text'>Другие продукты</p> */}
                 </div>
                   <div className='product-category_card'>
                   <div className='product-image_bg'><img  src={categoryImg2} style={{borderRadius: '50%', marginLeft: '5px' }} alt="thread"/></div>
@@ -27,7 +27,7 @@ const ProductCategory = () => {
                     <p className='product-category_text'>Хлопковая пряжа</p>
                     <p className='product-category_text'>Ткани</p>
                     <p className='product-category_text'>Аксессуары</p>
-                    <p className='product-category_text'>Другие продукты</p>
+                    {/* <p className='product-category_text'>Другие продукты</p> */}
                 </div>
                   <div className='product-category_card'>
                     <div className='product-image_bg'><img src={categoryImg3} style={{borderRadius: '50%', }} alt="thread"/></div>
@@ -35,7 +35,7 @@ const ProductCategory = () => {
                     <p className='product-category_text'>Хлопковая пряжа</p>
                     <p className='product-category_text'>Ткани</p>
                     <p className='product-category_text'>Аксессуары</p>
-                    <p className='product-category_text'>Другие продукты</p>
+                    {/* <p className='product-category_text'>Другие продукты</p> */}
                 </div>
                   <div className='product-category_card'>
                     <div className='product-image_bg'><img src={categoryImg4} style={{borderRadius: '50%'}} alt="thread"/></div>
@@ -43,7 +43,7 @@ const ProductCategory = () => {
                     <p className='product-category_text'>Хлопковая пряжа</p>
                     <p className='product-category_text'>Ткани</p>
                     <p className='product-category_text'>Аксессуары</p>
-                    <p className='product-category_text'>Другие продукты</p>
+                    {/* <p className='product-category_text'>Другие продукты</p> */}
                 </div>
                   <div className='product-category_card'>
                     <div className='product-image_bg'><img src={categoryImg5} style={{borderRadius: '50%'}} alt="thread"/></div>
@@ -51,7 +51,7 @@ const ProductCategory = () => {
                     <p className='product-category_text'>Хлопковая пряжа</p>
                     <p className='product-category_text'>Ткани</p>
                     <p className='product-category_text'>Аксессуары</p>
-                    <p className='product-category_text'>Другие продукты</p>
+                    {/* <p className='product-category_text'>Другие продукты</p> */}
                 </div>
                   <div className='product-category_card'>
                     <div className='product-image_bg'><img src={categoryImg6} style={{borderRadius: '50%'}} alt="thread"/></div>
@@ -59,7 +59,7 @@ const ProductCategory = () => {
                     <p className='product-category_text'>Хлопковая пряжа</p>
                     <p className='product-category_text'>Ткани</p>
                     <p className='product-category_text'>Аксессуары</p>
-                    <p className='product-category_text'>Другие продукты</p>
+                    {/* <p className='product-category_text'>Другие продукты</p> */}
                 </div>
         </div>
     </div>

@@ -32,6 +32,8 @@ const Contact = () => {
           <input className='contact-form_name_input' type="text" placeholder='Ваше имя' />
           <p className='contact-form_p'>Страна</p>
           <CountrySelect />
+          <p className='contact-form_p'>Email</p>
+          <input className='contact-form_name_input' type="text" placeholder='Enter your email' />
           <p className='contact-form_p'>Какой продукт вы ищете?*</p>
           <textarea className='contact-form_textarea' cols="30" rows="10" placeholder='Опишите продукт'></textarea>
           <button className='contact-form_btn'>Отправить</button>

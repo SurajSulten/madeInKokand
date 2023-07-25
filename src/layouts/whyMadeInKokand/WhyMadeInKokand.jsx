@@ -12,19 +12,19 @@ const WhyMadeInKokand = () => {
         <div className='why-content'>
             <div className='why-card'>
                 <img src={WhyIcon1} alt="icon" />
-                <p>Доставка по всему миру</p>
+                <p className='why-text'>Доставка по всему миру</p>
             </div>
             <div className='why-card'>
                 <img src={WhyIcon2} alt="icon" />
-                <p>Лучшее качество</p>
+                <p className='why-text'>Лучшее качество</p>
             </div>
             <div className='why-card'>
                 <img src={WhyIcon3} alt="icon" />
-                <p>Лучшие предложения</p>
+                <p className='why-text'>Лучшие предложения</p>
             </div>
             <div className='why-card'>
                 <img src={WhyIcon4} alt="icon" />
-                <p>Безопасные платежи</p>
+                <p className='why-text'>Безопасные платежи</p>
             </div>
         </div>
     </div>

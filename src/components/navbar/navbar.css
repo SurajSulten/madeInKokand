@@ -6,4 +6,9 @@
 }
 .navbar a {
     color: #121212;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
 }

@@ -10,8 +10,8 @@ const ProductSearch = () => {
         <div className='product-search-card'>
             <h3 className='product-search_title'>Пользуйтесь B2B чтобы найти продукт</h3>
             <div className='product-search_inputs'>
-                <div style={{marginBottom: '8px', marginTop: '34px'}}><HeroCategorySlct width='420px' name='Категория продуктов'/></div>
-                <div style={{marginBottom: '8px'}}><HeroCategorySlct width='420px' name='Подкатегория продуктов'/></div>
+                <div style={{marginBottom: '8px', marginTop: '34px'}}><HeroCategorySlct width='420px' name='Категория продукта'/></div>
+                <div style={{marginBottom: '8px'}}><HeroCategorySlct width='420px' name='Подкатегория продукта'/></div>
                 <input type="text" placeholder='Введите название продукта' className='product-name_input' />
                 
             </div>
@@ -21,7 +21,7 @@ const ProductSearch = () => {
         <div className='product-search-card'>
             <h3 className='add-company_title'>Станьте поставщиком на рынке B2B, и продавайте свои продукты</h3>
             <p className='add-company_text'>Станьте поставщиком на рынке B2B</p>
-            <button className='product-search_button'>+ Добавить свою компанию</button>
+            <button className='add-company_button'>+ Добавить свою компанию</button>
             <p className='add-company_item1'>+560</p>
             <p className='add-company_item2'>производителей</p>
             <img className='search_box-image' src={GraphChartImage} alt="chart" />
