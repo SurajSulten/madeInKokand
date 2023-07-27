@@ -6,26 +6,25 @@ import Product3Img from '../../assets/img/product3.png'
 import Product4Img from '../../assets/img/product4.png'
 import StarSVG from '../../assets/svg/StarSVG.svg'
 import ArrowIconLeft from '../../assets/svg/arrowIcon-left.svg'
-import ArrowIconRight from '../../assets/svg/arrowIcon-right.svg'
+import ArrowIconRight from '../../assets/svg/arrowIcon-right.svg' 
+
 
 const productData = [
     {
-       image: Product1Img 
+        id: 1,
+        image: Product1Img 
     },
     {
-       image: Product2Img 
+        id: 2,
+        image: Product2Img 
     },
     {
-       image: Product3Img 
-    },
-    {
-       image: Product4Img 
-    },
-    {
+        id: 3,
         image: Product3Img 
     },
     {
-        image: Product2Img 
+        id: 4,
+        image: Product4Img 
     }
 ] 
 
@@ -35,6 +34,7 @@ const NewProductCard = () => {
         <button className='arrow-icon_left'><img src={ArrowIconLeft} alt="arrow" /></button>
         {productData.map((productDetails) => {
             return (
+
                 <div className='new-product_card'>
                     <div className='new-product_image'>
                         <img src={productDetails.image} alt="product-img" />

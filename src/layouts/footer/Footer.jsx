@@ -25,15 +25,15 @@ const Footer = () => {
                 </div>
                 <div>
                     <h4 className='footer-title'>Быстрые ссылки</h4>
-                    <p className='footer-text'>Свяжиьесь с нами</p>
+                    <p className='footer-text'>Свяжитесь с нами</p>
                     <p className='footer-text'>О компании</p>
                 </div>
             </div>
             <div className='footer-social'>
                 <button className='footer-social_icon' href="#facebook"><img src={FacebookIcon} alt="facebook" /></button>
-                <button className='footer-social_icon' href="#instagram"><img src={InstagramIcon} alt="" /></button>
-                <button className='footer-social_icon' href="#instagram"><img src={TelegramIcon} alt="" /></button>
-                <button className='footer-social_icon' href="#instagram"><img src={YoutubeIcon} alt="" /></button>
+                <button className='footer-social_icon' href="#instagram"><img src={InstagramIcon} alt="instagram" /></button>
+                <button className='footer-social_icon' href="#telegram"><img src={TelegramIcon} alt="telegram" /></button>
+                <button className='footer-social_icon' href="#youtube"><img src={YoutubeIcon} alt="youtube" /></button>
             </div>
         </div>
         <div className='footer-line'></div>

@@ -6,12 +6,15 @@ import UsefulImage3 from '../../assets/img/usefulImg3.png'
 
 const usefulCardData = [
     {
+        di: 1,
         image: UsefulImage1
     },
     {
+        di: 2,
         image: UsefulImage2
     },
     {
+        di: 3,
         image: UsefulImage3 
     },
 ]

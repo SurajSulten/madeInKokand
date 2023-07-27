@@ -26,8 +26,8 @@
     background: white;
     border: 1px solid #DDD;
     border-radius: 50%;
-
-}
+    
+}   
 .faq-button:hover {
     cursor: pointer;
 }
@@ -37,4 +37,8 @@
     border-bottom: 1px solid #DDD;
     padding: 29px 0 34px 20px;
     align-items: center;
+}
+.faq-answer_text {
+    max-width: 813px;
+    margin-top: 15px;
 }

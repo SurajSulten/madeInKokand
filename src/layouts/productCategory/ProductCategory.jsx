@@ -23,7 +23,7 @@ const ProductCategory = () => {
                 </div>
                   <div className='product-category_card'>
                   <div className='product-image_bg'><img  src={categoryImg2} style={{borderRadius: '50%', marginLeft: '5px' }} alt="thread"/></div>
-                    <p className='product-category_name'>Трикотажный изделия</p>
+                    <p className='product-category_name'>Трикотажные изделия</p>
                     <p className='product-category_text'>Хлопковая пряжа</p>
                     <p className='product-category_text'>Ткани</p>
                     <p className='product-category_text'>Аксессуары</p>
